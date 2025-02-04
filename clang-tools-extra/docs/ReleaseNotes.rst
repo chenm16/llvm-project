@@ -112,6 +112,12 @@ New checks
   Finds potentially erroneous calls to ``reset`` method on smart pointers when
   the pointee type also has a ``reset`` method.
 
+- New :doc:`cppcoreguidelines-avoid-member-symmetric-op
+  <clang-tidy/checks/cppcoreguidelines/avoid-member-symmetric-op>` check.
+
+  This implements C.161: Use non-member functions for symmetric operators.
+  Flags equality operators declared as member functions until C++20.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

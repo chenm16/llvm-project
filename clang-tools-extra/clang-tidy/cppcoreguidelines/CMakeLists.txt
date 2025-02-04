@@ -8,6 +8,7 @@ add_clang_library(clangTidyCppCoreGuidelinesModule STATIC
   AvoidConstOrRefDataMembersCheck.cpp
   AvoidDoWhileCheck.cpp
   AvoidGotoCheck.cpp
+  AvoidMemberSymmetricOpCheck.cpp
   AvoidNonConstGlobalVariablesCheck.cpp
   AvoidReferenceCoroutineParametersCheck.cpp
   CppCoreGuidelinesTidyModule.cpp
