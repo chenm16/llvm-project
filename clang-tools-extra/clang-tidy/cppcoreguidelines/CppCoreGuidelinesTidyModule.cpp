@@ -24,6 +24,7 @@
 #include "AvoidConstOrRefDataMembersCheck.h"
 #include "AvoidDoWhileCheck.h"
 #include "AvoidGotoCheck.h"
+#include "AvoidMemberSymmetricOpCheck.h"
 #include "AvoidNonConstGlobalVariablesCheck.h"
 #include "AvoidReferenceCoroutineParametersCheck.h"
 #include "InitVariablesCheck.h"
@@ -69,6 +70,8 @@ public:
         "cppcoreguidelines-avoid-goto");
     CheckFactories.registerCheck<readability::MagicNumbersCheck>(
         "cppcoreguidelines-avoid-magic-numbers");
+    CheckFactories.registerCheck<AvoidMemberSymmetricOpCheck>(
+        "cppcoreguidelines-avoid-member-symmetric-op");
     CheckFactories.registerCheck<AvoidNonConstGlobalVariablesCheck>(
         "cppcoreguidelines-avoid-non-const-global-variables");
     CheckFactories.registerCheck<AvoidReferenceCoroutineParametersCheck>(
