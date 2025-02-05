@@ -112,6 +112,12 @@ New checks
   Finds potentially erroneous calls to ``reset`` method on smart pointers when
   the pointee type also has a ``reset`` method.
 
+- New :doc:`cppcoreguidelines-no-temporary-expr-stmt
+  <clang-tidy/checks/cppcoreguidelines/no-temporary-expr-stmt>` check.
+
+  This implements ES.84: Don’t try to declare a local variable with no name.
+  Intended to catch errors due to missing a name for a scope guard variable.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 
