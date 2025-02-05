@@ -16,6 +16,7 @@ add_clang_library(clangTidyCppCoreGuidelinesModule STATIC
   MacroUsageCheck.cpp
   MisleadingCaptureDefaultByValueCheck.cpp
   MissingStdForwardCheck.cpp
+  NoTemporaryExprStmtCheck.cpp
   NoMallocCheck.cpp
   NoSuspendWithLockCheck.cpp
   OwningMemoryCheck.cpp

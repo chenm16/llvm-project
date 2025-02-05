@@ -192,6 +192,7 @@ Clang-Tidy Checks
    :doc:`cppcoreguidelines-macro-usage <cppcoreguidelines/macro-usage>`,
    :doc:`cppcoreguidelines-misleading-capture-default-by-value <cppcoreguidelines/misleading-capture-default-by-value>`, "Yes"
    :doc:`cppcoreguidelines-missing-std-forward <cppcoreguidelines/missing-std-forward>`,
+   :doc:`cppcoreguidelines-no-temporary-expr-stmt <cppcoreguidelines/no-temporary-expr-stmt>`,
    :doc:`cppcoreguidelines-no-malloc <cppcoreguidelines/no-malloc>`,
    :doc:`cppcoreguidelines-no-suspend-with-lock <cppcoreguidelines/no-suspend-with-lock>`,
    :doc:`cppcoreguidelines-owning-memory <cppcoreguidelines/owning-memory>`,
